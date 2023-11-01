@@ -2,18 +2,21 @@
 /* FONTS ^^^ */
 
 /*DEFAULT START*/
+
 * {
     padding: 0;
     margin: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 /*DEFAULT END*/
 /*BODY START*/
 
 body{
     background-color:#5D737E;
 }
+
 /*BODY END*/
 /*NAVBAR START*/
 
@@ -71,6 +74,7 @@ body{
 
 /*NAVBAR END*/
 /*FOOTER START*/
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -108,7 +112,7 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-.paragraph{
+.paragraph p{
     font-size:1.5vw;
     margin-top:3vw;
     margin-left:10vw;
@@ -177,15 +181,16 @@ body{
 
 /*REFERENCES END*/
 /*ABOUT ME START*/
+
 .body4{
     display:flex;
-    margin:10vw;
+    margin:8vw;
     text-align:left;
 }
 
 .image4 img{
     width:auto;
-    height:60vh;
+    height:70vh;
 }
 
 .text4{
@@ -193,20 +198,26 @@ body{
     margin-left:5vw;
 }
 
-.profile h1, .education h1{
-    font-size:2.5vw;
+.profile h1, .education h1, .contactdetails h1{
+    font-size:2.4vw;
     font-family: 'Playfair Display', serif;
 }
 
-.education{
-    margin-top:2vw;
+.education, .contactdetails{
+    margin-top:3vw;
 }
 
-.profileparagraph, .educationparagraph ul li{
+.profileparagraph, .educationparagraph ul li, .contactdetailsparagraph ul a li{
     font-family:'Libre Baskerville', serif;
-    font-size:1.5vw;
+    font-size:1.4vw;
     margin:1vw;
+    margin-right:0vw;
 }
+
+.contactdetailsparagraph ul a{
+    text-decoration: none;
+}
+
 /*ABOUT ME END*/
 /*STUDY BACKGROUND START*/
 
@@ -233,13 +244,15 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-.paragraph2{
+.paragraph2 p{
     font-family:'Libre Baskerville', serif;
     font-size:1.2vw;
     margin-top:2vw;
 }
+
 /*STUDY BACKGROUND END*/
 /*MAIN CONTENT START*/
+
 .body3{
     margin:15vh;
 }
@@ -249,7 +262,7 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-.qualiimages, .qualitext, .quantiimages, .quantitext{
+.qualiimages, .qualitext, .quantiimages, .quantitext, .conclusion p{
     margin:5vh;
 }
 
@@ -288,7 +301,9 @@ body{
     font-size:1.2vw;
     margin-top:2vw;
 }
+
 .conclusion ol li{
-    margin-left:5vw;
+    margin-left:7vw;
 }
+
 /*MAIN CONTENT END*/
