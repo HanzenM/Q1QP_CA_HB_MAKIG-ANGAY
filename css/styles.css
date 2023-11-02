@@ -276,8 +276,8 @@ body{
     margin-bottom:2vh;
 }
 
-.datatables img, .descriptives img, .frequencydistributiontables img{
-    width:30vw;
+.descriptives img{
+    width:20---vw;
     height:auto;
 }
 
